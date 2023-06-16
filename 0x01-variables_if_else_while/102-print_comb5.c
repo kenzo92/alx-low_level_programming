@@ -20,11 +20,11 @@ tens_i = i / 10;
 unit_i = i % 10;
 tens_j = j / 10;
 unit_j = j % 10;
-putchar('0' + unit_i);
 putchar('0' + tens_i);
+putchar('0' + unit_i);
 putchar(' ');
-putchar('0' + unit_j);
 putchar('0' + tens_j);
+putchar('0' + unit_j);
 putchar(',');
 putchar(' ');
 }
