@@ -11,8 +11,18 @@
  */
 int print_last_digit(int num)
 {
-int y;
+int x, y;
 
 y = num % 10;
+if (y < 0)
+{
+x = -1 * y;
+_putchar(48 + x);
+return (x);
+}
+else
+{
+_putchar(48 + y);
 return (y);
+}
 }
