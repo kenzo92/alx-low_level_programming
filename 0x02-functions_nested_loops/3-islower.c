@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * islower - This function returns true for lowercase alphabet
+ * _islower - This function returns true for lowercase alphabet
  * and false for any other character
  * @c: Parameter used to copy value to be checked
  *
