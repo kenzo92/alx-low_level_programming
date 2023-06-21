@@ -21,7 +21,14 @@ else if (n > 98)
 {
 for (n = i; n >= 98; n--)
 {
-printf("%d, ", n);
+	if(n == 98)
+	{
+	printf("%d", n);
+	}
+	else
+	{
+	printf("%d, ", n);
+	}
 }
 printf("\n");
 }
@@ -29,7 +36,14 @@ else if (n == 0 || n < 98)
 {
 for (n = i; n <= 98; n++)
 {
-printf("%d, ", n);
+	if (n == 98)
+	{
+	printf("%d", n);
+	}
+	else
+	{
+	printf("%d, ", n);
+	}
 }
 printf("\n");
 }
