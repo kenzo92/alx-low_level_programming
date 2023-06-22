@@ -1,30 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- *
- * Return: Always 0
- */
-
-void fizz_buzz(void);
-
-int main(void)
-{
-	fizz_buzz();
-
-	return (0);
-}
-
-/**
- * fizz_buzz - This function prints numbers from 1 to 100
+ * main- Entry point. This function prints numbers from 1 to 100
  *
  * Description: The function prints Fizz and Buzz for numbers that are
  * multiples of 3 and 5, FizzBuzz for numbers that are both multiples of
  * 3 and 5
- * Return: void
+ * Return: Always 0
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -48,4 +33,6 @@ void fizz_buzz(void)
 	}
 	}
 	printf("\n");
+
+	return (0);
 }
