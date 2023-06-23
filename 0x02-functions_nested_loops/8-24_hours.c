@@ -3,28 +3,25 @@
 /**
  * jack_bauer - This functions prints every minute of the day
  *
+ * Description: The function returns the time in HH:MM format
+ * two variables of type int are declared and used in place of
+ * hours and minutes respectively
  * Return: returns void
  */
 void jack_bauer(void)
 {
-int i, j, k, l;
+int i, j;
 
-for (l = '0'; l <= '2'; l++)
+for (j = 0; j <= 23; j++)
 {
-for (k = '0'; k <= '3'; k++)
+for (i = 0; i <= 59; i++)
 {
-for (j = '0'; j <= '5'; j++)
-{
-for (i = '0'; i <= '9'; i++)
-{
-_putchar(l + '0');
-_putchar(k + '0');
+_putchar((j / 10) + '0');
+_putchar((j % 10) + '0');
 _putchar(':');
-_putchar(j + '0');
-_putchar(i + '0');
+_putchar((i / 10) + '0');
+_putchar((i % 10) + '0');
 _putchar('\n');
-}
-}
 }
 }
 }
