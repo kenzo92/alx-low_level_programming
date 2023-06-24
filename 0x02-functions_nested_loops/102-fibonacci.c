@@ -6,7 +6,7 @@
  * Description: This function prints the first fifty terms of
  * the Fibonacci sequence. Variables first_num, second_num, and
  * fibonacci, each of the long long int data type are declared
- * Result: Void
+ * Return: Void
  */
 
 int main(void)
