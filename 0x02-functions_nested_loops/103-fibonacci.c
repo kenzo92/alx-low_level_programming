@@ -15,7 +15,7 @@ int main(void)
 
 	first_num = 1;
 	second_num = 2;
-	sum = 3;
+	sum = 2;
 
 	for (i = 3; i < 50; i++)
 	{
