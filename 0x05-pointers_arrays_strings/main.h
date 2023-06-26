@@ -8,7 +8,7 @@ int _strlen(char *s);
 void _puts(char *str);
 void print_rev(char *s);
 void print_rev(char *s);
-int get_string_length(char *str);
+void rev_string(char *s);
 
 #endif
 
