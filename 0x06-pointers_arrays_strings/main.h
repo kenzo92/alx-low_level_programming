@@ -11,6 +11,7 @@ char is_whitespace(char);
 char is_separator(char c);
 char is_sseparator2(char c);
 char *cap_string(char *str);
+char *leet(char *str);
 
 #endif /* MAIN_H */
 
