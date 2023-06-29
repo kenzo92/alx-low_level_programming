@@ -13,6 +13,7 @@ char *leet(char *str)
 	int i, j;
 	char replacement[5];
 	char letter[5];
+
 	letter[0] = 'a';
 	letter[1] = 'e';
 	letter[2] = 'o';
