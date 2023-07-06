@@ -11,6 +11,7 @@ int _sqrt_recursion_helper(int n, int guess);
 int _sqrt_recursion(int n);
 int is_prime_number_helper(int n, int divisor);
 int is_prime_number(int n);
+int wildcmp(char *s1, char *s2);
 
 #endif
 
