@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - This function prints the name of a program
@@ -10,16 +11,6 @@
 
 int main(int argc, char *argv[])
 {
-	char *print_name;
-
-	print_name = argv[0];
-
-	while (*print_name != '\0')
-	{
-	_putchar(*print_name);
-	print_name++;
-	}
-
-	_putchar('\n');
+	printf("%s\n", argv[0]);
 	return (0);
 }
