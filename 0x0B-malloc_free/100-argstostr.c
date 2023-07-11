@@ -27,7 +27,7 @@ char *argstostr(int ac, char **av)
 			j++;
 			len++;
 		}
-		len += 1; /* Create space for the new line character */
+		len ++; /* Create space for the new line character */
 	}
 	len += 1; /* Create space for the null terminator */
 	str = malloc(len * sizeof(char));
