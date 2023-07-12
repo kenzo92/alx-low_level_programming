@@ -11,6 +11,19 @@
 
 int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[0]);
+	int i;
+	char *str;
+
+	str = argv[0];
+
+	i = 0;
+	while (str[i] != '\0')
+	{
+	_putchar(str[i]);
+	i++;
+	}
+	str[i] = '\0';
+	_putchar('\n');
+
 	return (0);
 }
