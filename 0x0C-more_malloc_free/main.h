@@ -10,5 +10,8 @@ void *_calloc(unsigned int nmemb, unsigned int size);
 void simple_print_buffer2(int *buffer, unsigned int size);
 int *array_range(int min, int max);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+unsigned long multiply(unsigned long num1, unsigned long num2);
+int is_numeric (char *s);
+void printNumber(unsigned long number);
 
 #endif
