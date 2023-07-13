@@ -61,12 +61,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s[i] = s1[i];
 		i++;
 	}
+
 	j = 0;
-	while (j < (len_s1 + 1))
+	while (j < n)
 	{
 		s[i++] = s2[j];
 		j++;
 	}
-	s[i + j] = '\0';
+	s[i] = '\0';
 	return (s);
 }
