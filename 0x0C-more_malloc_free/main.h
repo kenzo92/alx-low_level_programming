@@ -7,5 +7,7 @@ int _strlen(char *s);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
 void simple_print_buffer(char *buffer, unsigned int size);
 void *_calloc(unsigned int nmemb, unsigned int size);
+void simple_print_buffer2(int *buffer, unsigned int size);
+int *array_range(int min, int max);
 
 #endif
